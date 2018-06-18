@@ -1,5 +1,5 @@
 def square_array(array)
   newarray = []
-  array.each { newarray<< |i| i ** 2 }
-  newarray
+  array.each { |i| newarray << i ** 2 }
+  puts newarray
 end
