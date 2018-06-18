@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  newarray = []
+  array.collection { |i| i ** 2 }
+  array
 end
